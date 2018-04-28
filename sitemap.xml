@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://codeandloathing.github.io/categories/</loc>
+    <loc>https://blog.ccodeandloathing.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://codeandloathing.github.io/tags/</loc>
+    <loc>https://blog.ccodeandloathing.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://codeandloathing.github.io/</loc>
+    <loc>https://blog.ccodeandloathing.com/</loc>
     <priority>0</priority>
   </url>
   
