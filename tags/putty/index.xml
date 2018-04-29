@@ -17,10 +17,11 @@
       <pubDate>Sat, 28 Apr 2018 10:48:38 -0800</pubDate>
       
       <guid>//blog.codeandloathing.com/posts/connect-putty-to-serial-port-on-virtualbox-guest-using-a-named-pipe/</guid>
-      <description>This post describes how to connect to a serial port on a VirtualBox guest VM using PuTTY.
-The serial console has traditionally played a special role in system configuration, administration and recovery. Access through this method may provide special elevated privileges and/or not have the same authentication requirements as access through other means.
-For the VirtualBox VM you wish to connect to, go to the serial port settings.
- Enable the Serial Port and select the port number you want to connect to (ie, COM1) Change the Port Mode to Host Pipe Select Create Pipe Enter the Port/File Path as \.</description>
+      <description>&lt;p&gt;This post describes how to connect to a serial port on a &lt;a href=&#34;https://www.virtualbox.org/&#34;&gt;VirtualBox&lt;/a&gt; guest VM using &lt;a href=&#34;https://www.chiark.greenend.org.uk/~sgtatham/putty/&#34;&gt;PuTTY&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The serial console has traditionally played a special role in system configuration, administration and recovery. Access through this method may provide special elevated privileges and/or not have the same authentication requirements as access through other means.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
