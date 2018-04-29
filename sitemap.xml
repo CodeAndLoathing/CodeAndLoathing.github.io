@@ -3,17 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://codeandloathing.github.io/categories/</loc>
+    <loc>//blog.codeandloathing.com/posts/connect-putty-to-virtualbox-vm-serial-port-using-named-pipe/</loc>
+    <lastmod>2018-04-28T10:48:38-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//blog.codeandloathing.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://codeandloathing.github.io/tags/</loc>
+    <loc>//blog.codeandloathing.com/posts/</loc>
+    <lastmod>2018-04-28T10:48:38-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://codeandloathing.github.io/</loc>
+    <loc>//blog.codeandloathing.com/tags/putty/</loc>
+    <lastmod>2018-04-28T10:48:38-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//blog.codeandloathing.com/tags/</loc>
+    <lastmod>2018-04-28T10:48:38-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//blog.codeandloathing.com/tags/virtualbox/</loc>
+    <lastmod>2018-04-28T10:48:38-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//blog.codeandloathing.com/</loc>
+    <lastmod>2018-04-28T10:48:38-08:00</lastmod>
     <priority>0</priority>
   </url>
   
