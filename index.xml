@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>code and loathing</title>
-    <link>//blog.codeandloathing.com/</link>
+    <link>https://blog.codeandloathing.com/</link>
     <description>Recent content on code and loathing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Apr 2018 10:48:38 -0800</lastBuildDate>
     
-	<atom:link href="//blog.codeandloathing.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.codeandloathing.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Connect Putty to Serial Port on VirtualBox guest using a Named Pipe</title>
-      <link>//blog.codeandloathing.com/posts/connect-putty-to-serial-port-on-virtualbox-guest-using-a-named-pipe/</link>
+      <link>https://blog.codeandloathing.com/posts/connect-putty-to-serial-port-on-virtualbox-guest-using-a-named-pipe/</link>
       <pubDate>Sat, 28 Apr 2018 10:48:38 -0800</pubDate>
       
-      <guid>//blog.codeandloathing.com/posts/connect-putty-to-serial-port-on-virtualbox-guest-using-a-named-pipe/</guid>
+      <guid>https://blog.codeandloathing.com/posts/connect-putty-to-serial-port-on-virtualbox-guest-using-a-named-pipe/</guid>
       <description>&lt;p&gt;This post describes how to connect to a serial port on a &lt;a href=&#34;https://www.virtualbox.org/&#34;&gt;VirtualBox&lt;/a&gt; guest VM using &lt;a href=&#34;https://www.chiark.greenend.org.uk/~sgtatham/putty/&#34;&gt;PuTTY&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The serial console has traditionally played a special role in system configuration, administration and recovery. Access through this method may provide special elevated privileges and/or not have the same authentication requirements as access through other means.&lt;/p&gt;</description>

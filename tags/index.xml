@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on code and loathing</title>
-    <link>//blog.codeandloathing.com/tags/</link>
+    <link>https://blog.codeandloathing.com/tags/</link>
     <description>Recent content in Tags on code and loathing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Apr 2018 10:48:38 -0800</lastBuildDate>
     
-	<atom:link href="//blog.codeandloathing.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.codeandloathing.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Putty</title>
-      <link>//blog.codeandloathing.com/tags/putty/</link>
+      <link>https://blog.codeandloathing.com/tags/putty/</link>
       <pubDate>Sat, 28 Apr 2018 10:48:38 -0800</pubDate>
       
-      <guid>//blog.codeandloathing.com/tags/putty/</guid>
+      <guid>https://blog.codeandloathing.com/tags/putty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtualbox</title>
-      <link>//blog.codeandloathing.com/tags/virtualbox/</link>
+      <link>https://blog.codeandloathing.com/tags/virtualbox/</link>
       <pubDate>Sat, 28 Apr 2018 10:48:38 -0800</pubDate>
       
-      <guid>//blog.codeandloathing.com/tags/virtualbox/</guid>
+      <guid>https://blog.codeandloathing.com/tags/virtualbox/</guid>
       <description></description>
     </item>
     
