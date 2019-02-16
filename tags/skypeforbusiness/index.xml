@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skypeforbusiness on code and loathing</title>
+    <link>https://blog.codeandloathing.com/tags/skypeforbusiness/</link>
+    <description>Recent content in Skypeforbusiness on code and loathing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Feb 2019 09:43:56 -0900</lastBuildDate>
+    
+	<atom:link href="https://blog.codeandloathing.com/tags/skypeforbusiness/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Skype for Business blurry during screenshare</title>
+      <link>https://blog.codeandloathing.com/post/skype-for-business-blurry-during-screenshare/</link>
+      <pubDate>Sat, 16 Feb 2019 09:43:56 -0900</pubDate>
+      
+      <guid>https://blog.codeandloathing.com/post/skype-for-business-blurry-during-screenshare/</guid>
+      <description>Sometimes when screensharing with Skype for Business the remotely presented screen will be blurry, but if the remote viewer requests control the screenshare will suddenly become clear.
+If that is the case there&amp;rsquo;s probably something going wrong with the VbSS (Video based Screen Sharing) mechanism that Microsoft uses now in Skype for Business for screen sharing.
+Forcing Skype to revert back to using RDP (which I&amp;rsquo;m guessing is also what happens when a user requests control) resolved the issue for me.</description>
+    </item>
+    
+  </channel>
+</rss>
