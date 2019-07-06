@@ -47,7 +47,7 @@ For example, we could log into Azure AD using the following snippet which will p
 
 <meta itemprop="datePublished" content="2019-05-18T12:05:20-08:00" />
 <meta itemprop="dateModified" content="2019-05-18T12:05:20-08:00" />
-<meta itemprop="wordCount" content="495">
+<meta itemprop="wordCount" content="505">
 
 
 
@@ -159,9 +159,9 @@ if (!doNotTrack) {
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">    $Username = <span style="color:#e6db74">&#34;serviceAccount@codeandloathing.com&#34;</span>
     $Password = ConvertTo-SecureString -AsPlainText <span style="color:#e6db74">&#34;mySecretPassword333&#34;</span> -Force
     $Credential = New-Object System.Management.Automation.PSCredential ($Username, $Password)</code></pre></div>
-<p>While this works - it is only as secure as how tightly you&rsquo;ve buttoned down read access to your script file since you&rsquo;d have the password sitting right there in plaintext.</p>
+<p>While this works - it is only as secure as however tightly you&rsquo;ve buttoned down read access to your script file since you would have the password sitting right there in plaintext.</p>
 
-<p>Note that you can easily retrieve the plaintext password if running in the same PowerShell session using GetNetworkCredential:</p>
+<p>Note that you can easily retrieve the plaintext password from the PSCredential object if running in the same PowerShell session using GetNetworkCredential:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">    $Credential.GetNetworkCredential().Password
     mySecretPassword333</code></pre></div>
 <p>Also note that Microsoft generally recommends <a href="https://github.com/dotnet/platform-compat/blob/master/docs/DE0001.md">moving away</a> from SecureString as they continue on their transistion of .NET to CORE.</p>
@@ -170,7 +170,7 @@ if (!doNotTrack) {
 
 <p>We can marginally increase the security of our above solution by storing the credentials encrypted instead of in plaintext.</p>
 
-<p>A SecureString can be converted into an encrypted string using PowerShell cmdlet <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertfrom-securestring?view=powershell-6">ConvertFrom-SecureString</a></p>
+<p>A SecureString can be converted into an encrypted string using PowerShell cmdlet <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertfrom-securestring?view=powershell-6">ConvertFrom-SecureString</a> and back again using <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-6">ConvertTo-SecureString</a></p>
 
 <p>Here&rsquo;s an exampe of how we could take a set of known credentials, encrypt them, and save them out to a file for later use.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">    $Username = <span style="color:#e6db74">&#34;serviceAccount@codeandloathing.com&#34;</span>
@@ -228,10 +228,6 @@ if (!doNotTrack) {
 	   
 	     <li  class="mb2">
           <a href="/post/skype-for-business-blurry-during-screenshare/">Skype for Business blurry during screenshare</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/tool/convert-o365-immutable-id/">Convert O365 Immutable Id</a>
         </li>
 	    
 	     <li  class="mb2">
