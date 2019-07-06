@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>O365 on Code and Loathing</title>
-    <link>https://blog.codeandloathing.com/tags/o365/</link>
-    <description>Recent content in O365 on Code and Loathing</description>
+    <title>Auth on Code and Loathing</title>
+    <link>https://blog.codeandloathing.com/tags/auth/</link>
+    <description>Recent content in Auth on Code and Loathing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 May 2019 12:05:20 -0800</lastBuildDate>
     
-	<atom:link href="https://blog.codeandloathing.com/tags/o365/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.codeandloathing.com/tags/auth/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -33,16 +33,6 @@ For example, we could log into Azure AD using the following snippet which will p
 To create a PSCredential object interactively we can use the Get-Credential cmdlet.
 For example, we could log into Azure AD using the following snippet which will prompt you for the username and password to use.
  $Credential = Get-Credential Connect-AzureAD -Credential $Credential  Non-interactive creation of PSCredential But an interactive prompt is not helpful if we want to automate something since the script will just hang waiting for input.</description>
-    </item>
-    
-    <item>
-      <title>Skype for Business blurry during screenshare</title>
-      <link>https://blog.codeandloathing.com/post/skype-for-business-blurry-during-screenshare/</link>
-      <pubDate>Sat, 16 Feb 2019 09:43:56 -0900</pubDate>
-      
-      <guid>https://blog.codeandloathing.com/post/skype-for-business-blurry-during-screenshare/</guid>
-      <description>Recently I&amp;rsquo;ve encountered an issue when screensharing via Skype for Business with some users. The remotely presented screen will be blurry, but if the remote viewer requests control the screenshare will suddenly become clear for them and stay that way even after they release control.
-I&amp;rsquo;m guessing there&amp;rsquo;s probably something going wrong with the VbSS (Video based Screen Sharing) mechanism that Microsoft uses now in Skype for Business for screen sharing.</description>
     </item>
     
   </channel>

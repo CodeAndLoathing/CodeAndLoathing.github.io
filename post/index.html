@@ -36,7 +36,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://blog.codeandloathing.com/post/" />
 
-<meta property="og:updated_time" content="2019-02-16T09:43:56-09:00"/><meta property="og:site_name" content="Code and Loathing" />
+<meta property="og:updated_time" content="2019-05-18T12:05:20-08:00"/><meta property="og:site_name" content="Code and Loathing" />
 
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content="">
@@ -128,6 +128,52 @@ if (!doNotTrack) {
             <div class="mb3 pa4 mid-gray overflow-hidden">
     
       <div class="f6">
+        May 18, 2019
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="/post/credentials-for-powershell-scripts/" class="link black dim">
+        PowerShell Automation and Credentials
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Credentials in PowerShell PSCredentials objects are widely used in PowerShell by built-in and 3rd party cmdlets that require credentials as an argument.
+To create a PSCredential object interactively we can use the Get-Credential cmdlet.
+For example, we could log into Azure AD using the following snippet which will prompt you for the username and password to use.
+ $Credential = Get-Credential Connect-AzureAD -Credential $Credential  Non-interactive creation of PSCredential But an interactive prompt is not helpful if we want to automate something since the script will just hang waiting for input.
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        May 18, 2019
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="/post/o365-credentialfile-for-powershell-scripts/" class="link black dim">
+        PowerShell Automation and Credentials
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Credentials in PowerShell PSCredentials objects are widely used in PowerShell by both built-in and 3rd party cmdlets that require credentials as an argument.
+To create a PSCredential object interactively we can use the Get-Credential cmdlet.
+For example, we could log into Azure AD using the following snippet which will prompt you for the username and password to use.
+ $Credential = Get-Credential Connect-AzureAD -Credential $Credential  Non-interactive creation of PSCredential But an interactive prompt is not helpful if we want to automate something since the script will just hang waiting for input.
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
         February 16, 2019
       </div>
     
@@ -137,9 +183,8 @@ if (!doNotTrack) {
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Sometimes when screensharing with Skype for Business the remotely presented screen will be blurry, but if the remote viewer requests control the screenshare will suddenly become clear.
-If that is the case there&rsquo;s probably something going wrong with the VbSS (Video based Screen Sharing) mechanism that Microsoft uses now in Skype for Business for screen sharing.
-Forcing Skype to revert back to using RDP (which I&rsquo;m guessing is also what happens when a user requests control) resolved the issue for me.
+      Recently I&rsquo;ve encountered an issue when screensharing via Skype for Business with some users. The remotely presented screen will be blurry, but if the remote viewer requests control the screenshare will suddenly become clear for them and stay that way even after they release control.
+I&rsquo;m guessing there&rsquo;s probably something going wrong with the VbSS (Video based Screen Sharing) mechanism that Microsoft uses now in Skype for Business for screen sharing.
     </div>
   </div>
 

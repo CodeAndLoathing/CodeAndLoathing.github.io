@@ -36,7 +36,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://blog.codeandloathing.com/" />
 
-<meta property="og:updated_time" content="2019-02-16T09:48:03-09:00"/><meta property="og:site_name" content="Code and Loathing" />
+<meta property="og:updated_time" content="2019-05-18T12:05:20-08:00"/><meta property="og:site_name" content="Code and Loathing" />
 
 <meta itemprop="name" content="Code and Loathing">
 <meta itemprop="description" content="">
@@ -150,16 +150,17 @@ if (!doNotTrack) {
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/post/skype-for-business-blurry-during-screenshare/" class="color-inherit dim link">
-            Skype for Business blurry during screenshare
+          <a href="/post/credentials-for-powershell-scripts/" class="color-inherit dim link">
+            PowerShell Automation and Credentials
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Sometimes when screensharing with Skype for Business the remotely presented screen will be blurry, but if the remote viewer requests control the screenshare will suddenly become clear.
-If that is the case there&rsquo;s probably something going wrong with the VbSS (Video based Screen Sharing) mechanism that Microsoft uses now in Skype for Business for screen sharing.
-Forcing Skype to revert back to using RDP (which I&rsquo;m guessing is also what happens when a user requests control) resolved the issue for me.
+          Credentials in PowerShell PSCredentials objects are widely used in PowerShell by built-in and 3rd party cmdlets that require credentials as an argument.
+To create a PSCredential object interactively we can use the Get-Credential cmdlet.
+For example, we could log into Azure AD using the following snippet which will prompt you for the username and password to use.
+ $Credential = Get-Credential Connect-AzureAD -Credential $Credential  Non-interactive creation of PSCredential But an interactive prompt is not helpful if we want to automate something since the script will just hang waiting for input.
         </div>
-          <a href="/post/skype-for-business-blurry-during-screenshare/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/post/credentials-for-powershell-scripts/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -176,16 +177,42 @@ Forcing Skype to revert back to using RDP (which I&rsquo;m guessing is also what
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/post/connect-putty-to-serial-port-on-virtualbox-guest-using-a-named-pipe/" class="color-inherit dim link">
-            Connect Putty to Serial Port on VirtualBox guest using a Named Pipe
+          <a href="/post/o365-credentialfile-for-powershell-scripts/" class="color-inherit dim link">
+            PowerShell Automation and Credentials
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>This post describes how to connect to a serial port on a <a href="https://www.virtualbox.org/">VirtualBox</a> guest VM using <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a>.</p>
-
-<p>The serial console has traditionally played a special role in system configuration, administration and recovery. Access through this method may provide special elevated privileges and/or not have the same authentication requirements as access through other means.</p>
+          Credentials in PowerShell PSCredentials objects are widely used in PowerShell by both built-in and 3rd party cmdlets that require credentials as an argument.
+To create a PSCredential object interactively we can use the Get-Credential cmdlet.
+For example, we could log into Azure AD using the following snippet which will prompt you for the username and password to use.
+ $Credential = Get-Credential Connect-AzureAD -Credential $Credential  Non-interactive creation of PSCredential But an interactive prompt is not helpful if we want to automate something since the script will just hang waiting for input.
         </div>
-          <a href="/post/connect-putty-to-serial-port-on-virtualbox-guest-using-a-named-pipe/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/post/o365-credentialfile-for-powershell-scripts/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/post/skype-for-business-blurry-during-screenshare/" class="color-inherit dim link">
+            Skype for Business blurry during screenshare
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Recently I&rsquo;ve encountered an issue when screensharing via Skype for Business with some users. The remotely presented screen will be blurry, but if the remote viewer requests control the screenshare will suddenly become clear for them and stay that way even after they release control.
+I&rsquo;m guessing there&rsquo;s probably something going wrong with the VbSS (Video based Screen Sharing) mechanism that Microsoft uses now in Skype for Business for screen sharing.
+        </div>
+          <a href="/post/skype-for-business-blurry-during-screenshare/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -196,6 +223,23 @@ Forcing Skype to revert back to using RDP (which I&rsquo;m guessing is also what
         
       </section>
 
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/post/connect-putty-to-serial-port-on-virtualbox-guest-using-a-named-pipe/" class="link black dim">
+              Connect Putty to Serial Port on VirtualBox guest using a Named Pipe
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="/post/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+        
+        </section>
       
 
       </div>
