@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.codeandloathing.com/tool/convert-o365-immutable-id/</loc>
+    <lastmod>2019-02-16T09:48:03-09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.codeandloathing.com/post/skype-for-business-blurry-during-screenshare/</loc>
     <lastmod>2019-02-16T09:43:56-09:00</lastmod>
   </url>
@@ -14,6 +19,12 @@
   
   <url>
     <loc>https://blog.codeandloathing.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.codeandloathing.com/</loc>
+    <lastmod>2019-02-16T09:48:03-09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,14 +59,14 @@
   </url>
   
   <url>
-    <loc>https://blog.codeandloathing.com/tags/virtualbox/</loc>
-    <lastmod>2018-04-28T10:48:38-08:00</lastmod>
+    <loc>https://blog.codeandloathing.com/tool/</loc>
+    <lastmod>2019-02-16T09:48:03-09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.codeandloathing.com/</loc>
-    <lastmod>2019-02-16T09:43:56-09:00</lastmod>
+    <loc>https://blog.codeandloathing.com/tags/virtualbox/</loc>
+    <lastmod>2018-04-28T10:48:38-08:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>code and loathing</title>
+    <title>Code and Loathing</title>
     <link>https://blog.codeandloathing.com/</link>
-    <description>Recent content on code and loathing</description>
+    <description>Recent content on Code and Loathing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Feb 2019 09:43:56 -0900</lastBuildDate>
+    <lastBuildDate>Sat, 16 Feb 2019 09:48:03 -0900</lastBuildDate>
     
 	<atom:link href="https://blog.codeandloathing.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Convert O365 Immutable Id</title>
+      <link>https://blog.codeandloathing.com/tool/convert-o365-immutable-id/</link>
+      <pubDate>Sat, 16 Feb 2019 09:48:03 -0900</pubDate>
+      
+      <guid>https://blog.codeandloathing.com/tool/convert-o365-immutable-id/</guid>
+      <description>TEST ETST</description>
+    </item>
     
     <item>
       <title>Skype for Business blurry during screenshare</title>
