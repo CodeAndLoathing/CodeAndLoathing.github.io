@@ -17,7 +17,7 @@
 
     
     
-      <link href="https://blog.codeandloathing.com/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
     
 
     
@@ -47,7 +47,7 @@ For example, we could log into Azure AD using the following snippet which will p
 
 <meta itemprop="datePublished" content="2019-05-18T12:05:20-08:00" />
 <meta itemprop="dateModified" content="2019-05-18T12:05:20-08:00" />
-<meta itemprop="wordCount" content="505">
+<meta itemprop="wordCount" content="508">
 
 
 
@@ -89,6 +89,8 @@ if (!doNotTrack) {
     </a>
     <div class="flex-l items-center">
       
+
+      
         <ul class="pl0 mr3">
           
           <li class="list f5 f4-ns fw4 dib pr3">
@@ -114,6 +116,9 @@ if (!doNotTrack) {
 
 
 
+
+
+
     </div>
   </div>
 </nav>
@@ -125,7 +130,8 @@ if (!doNotTrack) {
 
     <main class="pb7" role="main">
       
-  <article class="flex-l flex-wrap justify-between mw8 center">
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
 
     <header class="mt4 w-100">
       <p class="f6 b helvetica tracked">
@@ -135,9 +141,11 @@ if (!doNotTrack) {
       <h1 class="f1 athelas mb1">PowerShell Automation and Credentials</h1>
       
       <time class="f6 mv4 dib tracked" datetime="2019-05-18T12:05:20-08:00">May 18, 2019</time>
+      
+      
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
 
 <h2 id="credentials-in-powershell">Credentials in PowerShell</h2>
 
@@ -161,7 +169,7 @@ if (!doNotTrack) {
     $Credential = New-Object System.Management.Automation.PSCredential ($Username, $Password)</code></pre></div>
 <p>While this works - it is only as secure as however tightly you&rsquo;ve buttoned down read access to your script file since you would have the password sitting right there in plaintext.</p>
 
-<p>Note that you can easily retrieve the plaintext password from the PSCredential object if running in the same PowerShell session using GetNetworkCredential:</p>
+<p>Note that you can easily retrieve the plaintext password from the PSCredential object if running in the same PowerShell session using the provided GetNetworkCredential method:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">    $Credential.GetNetworkCredential().Password
     mySecretPassword333</code></pre></div>
 <p>Also note that Microsoft generally recommends <a href="https://github.com/dotnet/platform-compat/blob/master/docs/DE0001.md">moving away</a> from SecureString as they continue on their transistion of .NET to CORE.</p>
@@ -213,9 +221,10 @@ if (!doNotTrack) {
   
 </ul>
 <div class="mt6">
-        
+      
+      
       </div>
-    </main>
+    </section>
 
     <aside class="w-30-l mt6-l">
 
@@ -242,12 +251,12 @@ if (!doNotTrack) {
   </article>
 
     </main>
-    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://blog.codeandloathing.com/" >
     &copy; 2019 Code and Loathing
   </a>
-  
+    <div>
 
 
 
@@ -256,12 +265,15 @@ if (!doNotTrack) {
 
 
 
+
+
+</div>
   </div>
 </footer>
 
     
 
-  <script src="https://blog.codeandloathing.com/dist/js/app.3fc0f988d21662902933.js"></script>
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
 
 
   </body>
