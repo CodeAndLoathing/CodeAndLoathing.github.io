@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Code and Loathing</title>
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Powershell</title>
+      <title>PowerShell</title>
       <link>https://blog.codeandloathing.com/tags/powershell/</link>
       <pubDate>Sat, 18 May 2019 12:05:20 -0800</pubDate>
       
@@ -39,16 +39,7 @@
     </item>
     
     <item>
-      <title>Putty</title>
-      <link>https://blog.codeandloathing.com/tags/putty/</link>
-      <pubDate>Sat, 28 Apr 2018 10:48:38 -0800</pubDate>
-      
-      <guid>https://blog.codeandloathing.com/tags/putty/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Skypeforbusiness</title>
+      <title>SkypeForBusiness</title>
       <link>https://blog.codeandloathing.com/tags/skypeforbusiness/</link>
       <pubDate>Sat, 16 Feb 2019 09:43:56 -0900</pubDate>
       
@@ -57,7 +48,16 @@
     </item>
     
     <item>
-      <title>Virtualbox</title>
+      <title>putty</title>
+      <link>https://blog.codeandloathing.com/tags/putty/</link>
+      <pubDate>Sat, 28 Apr 2018 10:48:38 -0800</pubDate>
+      
+      <guid>https://blog.codeandloathing.com/tags/putty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualbox</title>
       <link>https://blog.codeandloathing.com/tags/virtualbox/</link>
       <pubDate>Sat, 28 Apr 2018 10:48:38 -0800</pubDate>
       

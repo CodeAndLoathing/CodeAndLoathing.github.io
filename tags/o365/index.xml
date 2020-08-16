@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>O365 on Code and Loathing</title>
@@ -20,7 +20,7 @@
       <description>Credentials in PowerShell PSCredentials objects are widely used in PowerShell by both built-in and 3rd party cmdlets that require credentials as an argument.
 To create a PSCredential object interactively we can use the Get-Credential cmdlet.
 For example, we could log into Azure AD using the following snippet which will prompt you for the username and password to use.
- $Credential = Get-Credential Connect-AzureAD -Credential $Credential  Non-interactive creation of PSCredential But an interactive prompt is not helpful if we want to automate something since the script will just hang waiting for input.</description>
+ $Credential = Get-Credential Connect-AzureAD -Credential $Credential Non-interactive creation of PSCredential But an interactive prompt is not helpful if we want to automate something since the script will just hang waiting for input.</description>
     </item>
     
     <item>

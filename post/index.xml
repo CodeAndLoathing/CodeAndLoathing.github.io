@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Code and Loathing</title>
@@ -20,7 +20,7 @@
       <description>Credentials in PowerShell PSCredentials objects are widely used in PowerShell by both built-in and 3rd party cmdlets that require credentials as an argument.
 To create a PSCredential object interactively we can use the Get-Credential cmdlet.
 For example, we could log into Azure AD using the following snippet which will prompt you for the username and password to use.
- $Credential = Get-Credential Connect-AzureAD -Credential $Credential  Non-interactive creation of PSCredential But an interactive prompt is not helpful if we want to automate something since the script will just hang waiting for input.</description>
+ $Credential = Get-Credential Connect-AzureAD -Credential $Credential Non-interactive creation of PSCredential But an interactive prompt is not helpful if we want to automate something since the script will just hang waiting for input.</description>
     </item>
     
     <item>
@@ -40,7 +40,6 @@ I&amp;rsquo;m guessing there&amp;rsquo;s probably something going wrong with the
       
       <guid>https://blog.codeandloathing.com/post/connect-putty-to-serial-port-on-virtualbox-guest-using-a-named-pipe/</guid>
       <description>&lt;p&gt;This post describes how to connect to a serial port on a &lt;a href=&#34;https://www.virtualbox.org/&#34;&gt;VirtualBox&lt;/a&gt; guest VM using &lt;a href=&#34;https://www.chiark.greenend.org.uk/~sgtatham/putty/&#34;&gt;PuTTY&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;The serial console has traditionally played a special role in system configuration, administration and recovery. Access through this method may provide special elevated privileges and/or not have the same authentication requirements as access through other means.&lt;/p&gt;</description>
     </item>
     
