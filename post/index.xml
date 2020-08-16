@@ -30,7 +30,7 @@ For example, we could log into Azure AD using the following snippet which will p
       
       <guid>https://blog.codeandloathing.com/post/installing-dos-6.22-from-msdn/</guid>
       <description>Install MS DOS 6.22 from MSDN into VirtualBox VM If you have a Visual Studio subscription, formerly known as a MSDN subscription, you may have noticed that MS DOS is available as a download. The following is instructions on how you can install the provided MS DOS 6.22 download into a new Virtual Box VM.
-Steps Download and extract DOS 6.22 Download the MS DOS 6.22 download from your Visual Studio subscription.</description>
+Steps Download and extract DOS 6.22 Download MS DOS 6.22 from your Visual Studio subscription.</description>
     </item>
     
     <item>
