@@ -24,6 +24,16 @@ For example, we could log into Azure AD using the following snippet which will p
     </item>
     
     <item>
+      <title>Installing DOS 6.22 from MSDN</title>
+      <link>https://blog.codeandloathing.com/post/installing-dos-6.22-from-msdn/</link>
+      <pubDate>Sat, 18 May 2019 12:04:35 -0800</pubDate>
+      
+      <guid>https://blog.codeandloathing.com/post/installing-dos-6.22-from-msdn/</guid>
+      <description>Install MS DOS 6.22 from MSDN into VirtualBox VM If you have a Visual Studio subscription, formerly known as a MSDN subscription, you may have noticed that MS DOS is available as a download. The following is instructions on how you can install the provided MS DOS 6.22 download into a new Virtual Box VM.
+Steps Download and extract DOS 6.22 Download the MS DOS 6.22 download from your Visual Studio subscription.</description>
+    </item>
+    
+    <item>
       <title>Skype for Business blurry during screenshare</title>
       <link>https://blog.codeandloathing.com/post/skype-for-business-blurry-during-screenshare/</link>
       <pubDate>Sat, 16 Feb 2019 09:43:56 -0900</pubDate>

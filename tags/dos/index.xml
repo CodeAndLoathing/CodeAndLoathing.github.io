@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DOS on Code and Loathing</title>
+    <link>https://blog.codeandloathing.com/tags/dos/</link>
+    <description>Recent content in DOS on Code and Loathing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 May 2019 12:04:35 -0800</lastBuildDate>
+    
+	<atom:link href="https://blog.codeandloathing.com/tags/dos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing DOS 6.22 from MSDN</title>
+      <link>https://blog.codeandloathing.com/post/installing-dos-6.22-from-msdn/</link>
+      <pubDate>Sat, 18 May 2019 12:04:35 -0800</pubDate>
+      
+      <guid>https://blog.codeandloathing.com/post/installing-dos-6.22-from-msdn/</guid>
+      <description>Install MS DOS 6.22 from MSDN into VirtualBox VM If you have a Visual Studio subscription, formerly known as a MSDN subscription, you may have noticed that MS DOS is available as a download. The following is instructions on how you can install the provided MS DOS 6.22 download into a new Virtual Box VM.
+Steps Download and extract DOS 6.22 Download the MS DOS 6.22 download from your Visual Studio subscription.</description>
+    </item>
+    
+  </channel>
+</rss>
